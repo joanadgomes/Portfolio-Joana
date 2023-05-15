@@ -1,0 +1,145 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15vw 0;
+}
+
+.home-social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+    margin-right: 4rem;
+}
+
+.social-icon {
+    color:  rgb(85, 84, 84);
+    font-size: 1.5rem;
+}
+
+.social-icon:hover {
+    color: black;
+}
+
+.profile-image {
+    background: url(../assets/jo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-self: center;
+    width: 400px;
+    height: 400px;
+    animation: 8s ease-in-out infinite 1s profile__animate;
+}
+
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+.info-box {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.info-box h2 {
+    color: rgb(159, 226, 191);
+    font-size: 50px;
+}
+
+.position {
+    font-size: 40px;
+}
+
+.info-box span {
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.box-talk {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid rgb(159, 226, 191);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+    box-shadow: inset 0 0 0 0 rgb(159, 226, 191);
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.box-talk:hover {
+    color: #fff;
+    box-shadow: inset 700px 0 0 0 rgb(159, 226, 191);
+}
+
+.scroll_down {
+    position: absolute;
+    right: 3rem;
+    top: 25rem;
+    transform: rotate(90deg);
+    font-size: 0.9rem;
+    color: rgb(85, 84, 84);
+}
+
+.scroll_down:hover {
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .home-content {
+        margin: 40px 10px 80px;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .info-box span {
+        font-size: 15px;
+    }
+
+    .info-box h2 {
+        font-size: 35px;
+    }
+
+    .position {
+        font-size: 28px;
+    }
+
+    .arrow {
+        font-size: 15px;
+    }
+
+    .scroll_down {
+        top: 15rem;
+    }
+    
+}

@@ -1,0 +1,107 @@
+.contact-box {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-contacts {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin: 40px 0;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-option {
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.contact-option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(159, 226, 191);
+}
+
+.contact-option:hover {
+    background: white;
+    border: transparent;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+form {
+    width: 30vw;
+    display: inline;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    background-color: transparent;
+    resize: none;
+    color: black;
+}
+
+.button-form {
+    border: 1.5px solid rgb(159, 226, 191);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+    box-shadow: inset 0 0 0 0 rgb(159, 226, 191);
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.button-form:hover {
+    color: #fff;
+    box-shadow: inset 700px 0 0 0 rgb(159, 226, 191);
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-box {
+        margin: 30px;
+    }
+
+    .box-contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contact-option {
+        width: 50vw;
+        padding: 1.5rem;
+    }
+
+    form {
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .contact-option {
+    }
+}

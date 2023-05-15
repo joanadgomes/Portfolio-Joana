@@ -1,0 +1,134 @@
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 1.2rem;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.56);
+}
+
+.each-link-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    color: rgb(85, 84, 84);
+    margin: 0 10px;
+}
+
+.link:hover {
+    font-weight: 600;
+}
+
+.link-icon {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    margin: .5rem;
+    color: rgb(85, 84, 84);
+}
+
+.icon,
+.nav-toggle,
+.nav-close {
+    display: none;
+}
+
+.icon,
+.link {
+    color: black;
+}
+
+.active {
+    background-color: rgb(85, 84, 84);
+    color: white;
+    border-radius: 10%;
+    padding: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        top: initial;
+        bottom: 0;
+        background-color: white;
+        padding: 0.5rem;
+    }
+
+    .links {
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        padding: 1.5rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .link {
+        font-size: 0.8rem;
+        }
+
+    .icon,
+    .nav-toggle,
+    .nav-close {
+        display: block;
+    }
+
+    .nav-close {
+        position: absolute;
+        right: 1.3rem;
+        bottom: .5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        text-decoration: none;
+        color: rgb(85, 84, 84);
+    }
+
+    .nav-close:hover {
+        color: black;
+        font-weight: 600;
+    }
+
+    .nav-toggle {
+        font-size: 1.1rem;
+        cursor: pointer;
+        color: rgb(85, 84, 84);
+        text-align: center;
+    }
+
+    .nav-toggle:hover {
+        color: black;
+        font-weight: 600;
+    }
+
+    .show-menu {
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .links {
+        padding: 2rem 0.25rem 4rem;
+    }
+}
