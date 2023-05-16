@@ -16,7 +16,7 @@ function home() {
           <a href="#contact" className="box-talk">
             <h3 className="uil uil-arrow-circle-right arrow">Get in touch!</h3>
           </a>
-          <a href="#contact" className="scroll_down">
+          <a href="#about" className="scroll_down">
           Scroll Down
         </a>
         </div>
