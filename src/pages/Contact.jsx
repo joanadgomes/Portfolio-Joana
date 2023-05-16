@@ -1,9 +1,12 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 function Contact() {
+  // emailJS
+  const [statusMessage, setStatusMessage] = useState("");
   const form = useRef();
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -11,6 +14,7 @@ function Contact() {
     emailjs.sendForm('service_66fhsql', 'template_kz8hhaa', form.current, 'SWjioG-FEfJBA23bC')
       .then((result) => {
           console.log(result.text);
+          setStatusMessage("Email sent success");
       }, (error) => {
           console.log(error.text);
       });
@@ -49,6 +53,7 @@ function Contact() {
           <input type="email" name="email" placeholder='Your email' required />
           <textarea name="message" rows="17" placeholder='Your message' required></textarea>
           <button type='submit' className='button-form'>Send message</button>
+          <div className='status-message'>{statusMessage}</div>
         </form>
       </div>
     </section>

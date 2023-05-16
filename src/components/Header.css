@@ -6,8 +6,12 @@
     right: 0;
     z-index: 1;
     padding: 1.2rem 0;
-    position: fixed;
     background-color: rgb(234, 231, 231);
+}
+
+.nav-box {
+    position: -webkit-sticky;
+	position: sticky;
 }
 
 .each-link-icon {
@@ -29,6 +33,7 @@
 
 .link:hover {
     font-weight: 600;
+    color: rgb(143, 188, 139);
 }
 
 .link-icon {
@@ -57,7 +62,8 @@
 }
 
 .active {
-    color: rgb(111, 209, 177);
+    color: rgb(143, 188, 139);
+    font-weight: 600;
 }
 
 @media screen and (max-width: 800px) {

@@ -6,11 +6,11 @@ import snake from '../assets/snake.jpg';
 
 function Projects() {
   return (
-    <div id='projects' className="projects">
+    <section id='projects' className="projects">
         <h1 className="title">My Projects</h1>
 
       {/* dev hub project */}
-      <div className="each-project">
+      <article className="each-project">
         <div className="box">
           <Link
             className="linkto"
@@ -24,7 +24,7 @@ function Projects() {
           </Link>
         </div>
         <div className="text-box">
-          <h2>DevHub</h2>
+          <h2>DevHub <span> <Link to='https://github.com/joanadgomes/Project-Three-Frontend-devHub' target="_blank" className="uil uil-github-alt github-link"></Link> </span></h2>
           <p className="description">
             Our platform allows users to easily share job opportunities and
             exchange tips with other developers. In addition, users can take
@@ -34,10 +34,10 @@ function Projects() {
             the best overall project prizes. <br /> <span>Ironhack March 2023.</span>
           </p>
         </div>
-      </div>
+      </article>
 
 {/* kiddo's care project */}
-      <div className="each-project">
+      <article className="each-project">
         <div className="box">
           <Link
             className="linkto"
@@ -51,7 +51,7 @@ function Projects() {
           </Link>
         </div>
         <div className="text-box">
-          <h2>Kiddo`s Care</h2>
+          <h2>Kiddo&apos;s Care <span> <Link to='https://github.com/joanadgomes/kiddoscare' target="_blank" className="uil uil-github-alt github-link"></Link> </span></h2>
           <p className="description">
             Babysitting platform that connects parents with local babysitters.
             It allows parents to search for babysitters in their area based on
@@ -60,14 +60,14 @@ function Projects() {
             services to parents. <br /> <span>Ironhack February 2023.</span> 
           </p>
         </div>
-      </div>
+      </article>
 
 {/* the hungry snake project */}
-      <div className="each-project">
+      <article className="each-project">
         <div className="box">
           <Link
             className="linkto"
-            to="https://peterloyal.github.io/Project_1/"
+            to="https://github.com/joanadgomes/The-Hungry-Snake"
             target="_blank"
           >
             <img className="project-image" src={snake} alt="" />
@@ -77,15 +77,16 @@ function Projects() {
           </Link>
         </div>
         <div className="text-box">
-          <h2>The Hungry Snake</h2>
+          <h2>The Hungry Snake <span> <Link to='https://github.com/joanadgomes/Project-Three-Frontend-devHub' target="_blank" className="uil uil-github-alt github-link"></Link> </span></h2>
           <p className="description">
             Classic snake game, in a marine environment with some shrimps to
             eat, with a bonus of some trash that she need to avoid, developed
             with Canvas and DOM manipulation. <br /> <span>Ironhack January 2023.</span>
           </p>
         </div>
-      </div>
-    </div>
+      </article>
+      
+    </section>
   );
 }
 

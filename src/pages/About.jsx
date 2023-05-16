@@ -4,7 +4,7 @@ import Skills from '../components/Skills';
 
 function About() {
   return (
-    <div id="about">
+    <section id="about">
       <div className="about-me">
         <h1 className="title">About Me</h1>
         <p className="text-about">
@@ -28,7 +28,7 @@ function About() {
         </a>
       </div>
       <Skills />
-    </div>
+    </section>
   );
 }
 

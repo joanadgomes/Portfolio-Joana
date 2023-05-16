@@ -14,7 +14,7 @@ function home() {
           <h1>Joana Gomes</h1>
           <h2 className="position">Fullstack Developer</h2>
           <a href="#contact" className="box-talk">
-            <h3 className="uil uil-arrow-circle-right arrow">Get in touch!</h3>
+            <h3 className="uil uil-arrow-circle-right button-touch">Get in touch!</h3>
           </a>
           <a href="#about" className="scroll_down">
           Scroll Down
