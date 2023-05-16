@@ -71,7 +71,7 @@
 
 .info-box h1 {
     font-size: 35px;
-    background: linear-gradient(rgba(255,255,0,0) 40%, rgb(111, 209, 177)); 
+    background: linear-gradient(rgba(0, 255, 174, 0) 40%, rgb(111, 209, 177)); 
     transform: skew(9deg,0deg);
     font-style: italic;
 }
@@ -107,7 +107,7 @@
 
 .scroll_down {
     position: absolute;
-    right: 3rem;
+    left: 75%;
     top: 30rem;
     transform: rotate(90deg);
     font-size: 0.9rem;
@@ -151,8 +151,19 @@
         right: 1rem;
     }
 
+    .home-social {
+        margin-right: 1rem;
+    }
+
     .social-icon {
         font-size: 1rem;
     }
     
+}
+
+@media screen and (max-width: 420px) {
+    .scroll_down {
+        top: 13rem;
+        right: 0.1rem;
+    }
 }

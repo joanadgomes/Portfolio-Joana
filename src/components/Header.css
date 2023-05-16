@@ -24,7 +24,7 @@
 
 .link {
     color: rgb(85, 84, 84);
-    margin: 0 10px;
+    padding: 0 10px;
 }
 
 .link:hover {
@@ -41,7 +41,7 @@
 }
 
 .icon {
-    margin: .5rem;
+    margin: .5rem 0;
     color: rgb(85, 84, 84);
 }
 
