@@ -1,8 +1,6 @@
 .home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
+    background-color: rgb(234, 231, 231);
 }
 
 .home-content {
@@ -13,6 +11,22 @@
     margin: 15vw 0;
 }
 
+.info-box {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.social-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Social */
 .home-social {
     display: grid;
     grid-template-columns: max-content;
@@ -29,6 +43,7 @@
     color: black;
 }
 
+/* profile image*/
 .profile-image {
     background: url(../assets/jo2.jpg);
     background-repeat: no-repeat;
@@ -54,55 +69,46 @@
     }
 }
 
-.info-box {
-    margin-left: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-}
-
-.info-box h2 {
-    color: rgb(159, 226, 191);
-    font-size: 50px;
+.info-box h1 {
+    font-size: 35px;
+    background: linear-gradient(rgba(255,255,0,0) 40%, rgb(111, 209, 177)); 
+    transform: skew(9deg,0deg);
+    font-style: italic;
 }
 
 .position {
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.info-box span {
+.hello {
     color: black;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .arrow {
-    font-size: 20px;
-}
-
-.box-talk {
     display: flex;
     justify-content: center;
-    border: 1.5px solid rgb(159, 226, 191);
+    align-items: center;
+    border: 1.5px solid rgb(111, 209, 177);
     border-radius: 6px;
     padding: 10px;
     margin-top: 20px;
     text-decoration: none;
     color: rgb(85, 84, 84);
-    box-shadow: inset 0 0 0 0 rgb(159, 226, 191);
+    box-shadow: inset 0 0 0 0 rgb(111, 209, 177);
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-.box-talk:hover {
+.arrow:hover {
     color: #fff;
-    box-shadow: inset 700px 0 0 0 rgb(159, 226, 191);
+    box-shadow: inset 700px 0 0 0 rgb(111, 209, 177);
 }
 
 .scroll_down {
     position: absolute;
     right: 3rem;
-    top: 25rem;
+    top: 30rem;
     transform: rotate(90deg);
     font-size: 0.9rem;
     color: rgb(85, 84, 84);
@@ -112,26 +118,28 @@
     color: black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .home-content {
         margin: 40px 10px 80px;
+        flex-direction: column;
     }
 
     .profile-image {
         width: 200px;
         height: 200px;
+        margin-bottom: 10px;
     }
     
-    .info-box span {
+    .hello {
         font-size: 15px;
     }
 
-    .info-box h2 {
-        font-size: 35px;
+    .position {
+        font-size: 25px;
     }
 
-    .position {
-        font-size: 28px;
+    .info-box h1 {
+        font-size: 35px;
     }
 
     .arrow {
@@ -139,7 +147,12 @@
     }
 
     .scroll_down {
-        top: 15rem;
+        top: 13rem;
+        right: 1rem;
+    }
+
+    .social-icon {
+        font-size: 1rem;
     }
     
 }

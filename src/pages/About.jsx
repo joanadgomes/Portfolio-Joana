@@ -6,7 +6,7 @@ function About() {
   return (
     <div id="about">
       <div className="about-me">
-        <h1 className="title">About me</h1>
+        <h1 className="title">About Me</h1>
         <p className="text-about">
           I recently underwent an exciting career change, leveraging my Marine
           Biology background to become a full-stack developer. I used to work at

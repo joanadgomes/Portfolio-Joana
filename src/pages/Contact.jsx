@@ -19,7 +19,7 @@ function Contact() {
 
   return (
     <section id="contact" className="contact-box">
-      <h2 className='title'>Feel free to get in touch with me!</h2>
+      <h2 className='title'>Contact Me</h2>
 
       <div className='box-contacts'>
         <div className='contact-options'>

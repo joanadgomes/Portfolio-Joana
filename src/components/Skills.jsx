@@ -12,7 +12,7 @@ import mongoDB from '../assets/mongoDB.png'
 function Skills() {
   return (
     <div className="box-skills">
-      <h2 className="subtitle">Skills...</h2>
+      <h2 className="title">Skills</h2>
       <ul className="list-skills">
         <li className="skill"> <img src={javascript} alt="" /></li>
         <li className='skill'> <img src={html} alt="" /></li>
