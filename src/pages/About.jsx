@@ -14,8 +14,7 @@ function About() {
           dive master at a diving school. However, I felt the need to explore
           new avenues of learning and development, which led me to the world of
           programming. I conducted thorough research, consulted my friends in
-          the field, and finally enrolled in IRONHACK, where I spent three
-          months honing my skills as a full-stack developer. I am now driven to
+          the field, and finally enrolled in Ironhack, where I honed my skills as a full-stack developer. I am now driven to
           enhance my skills and contribute to projects that create a positive
           impact. Given my background, I am well-aware of the significance of
           collaboration, adaptability, and problem-solving, and I am thrilled to

@@ -57,7 +57,7 @@ function Projects() {
             It allows parents to search for babysitters in their area based on
             their availability, experience, and other criteria. Also allows
             individuals to create profiles as babysitters and offer their
-            services to parents. <br /> <span>Ironhack February 2023.</span> 
+            services to parents. <br /> <span>React.js - Javascript - CSS - MondoDB</span> <br /> <span>Ironhack February 2023.</span> 
           </p>
         </div>
       </article>
