@@ -42,9 +42,11 @@
   color: black;
 }
 
+
 /* profile image*/
+
 .profile-image {
-  background: url(../assets/jo2.jpg);
+  background: url(../assets/7564.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -73,6 +75,7 @@
   background: linear-gradient(rgba(0, 255, 174, 0) 40%, rgb(143, 188, 139));
   transform: skew(9deg, 0deg);
   font-style: italic;
+  line-height: 30px;
 }
 
 .position {
