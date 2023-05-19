@@ -1,6 +1,6 @@
 .home {
   overflow: hidden;
-  background-color: rgb(234, 231, 231);
+  background-color: white;
 }
 
 .home-content {
@@ -46,7 +46,7 @@
 /* profile image*/
 
 .profile-image {
-  background: url(../assets/7564.jpg);
+  background: url(../assets/jo2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
