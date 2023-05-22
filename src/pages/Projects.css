@@ -77,8 +77,16 @@
   }
 
   .github-link {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
     color: rgb(85, 84, 84);
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .github-link p {
+    margin-left: 5px;
   }
 
   .github-link:hover {
@@ -105,7 +113,7 @@
     }
   
     .description span {
-      font-size: 6px;
+      font-size: 8px;
     }
   
     .description br {
@@ -123,5 +131,9 @@
 
     .text-box h2 {
       font-size: 15px;
+    }
+
+    .github-link {
+      font-size: 12px;
     }
   }

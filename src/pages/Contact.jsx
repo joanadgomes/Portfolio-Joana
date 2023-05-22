@@ -3,8 +3,10 @@ import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 function Contact() {
-  // emailJS
+  // status after send message
   const [statusMessage, setStatusMessage] = useState("");
+
+  // emailJS
   const form = useRef();
 
 
@@ -44,6 +46,7 @@ function Contact() {
           <article className='contact-option'>
             <h3 className="uil uil-linkedin-alt contact-icon"></h3>
             <h4>Linkedin</h4>
+            <h5>in/joanadgomes</h5>
             <a className="contact" href="https://www.linkedin.com/in/joanadgomes/" rel="noreferrer" target="_blank">Go to my profile</a>
           </article>
         </div>

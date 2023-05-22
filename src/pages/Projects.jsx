@@ -31,7 +31,7 @@ function Projects() {
             quizzes to refresh their knowledge and engage in real-time
             conversations with the devHub community via our Firebase-based chat.
             As a result, we were awarded both the most difficult code-wise and
-            the best overall project prizes. <br /> <span>React.js - Javascript - HTML - CSS - MongoDB</span> <br /> <span>Ironhack March 2023.</span> <br /> <span><Link to='https://github.com/joanadgomes/Project-Three-Frontend-devHub' target="_blank" className="uil uil-github-alt github-link"></Link> </span>
+            the best overall project prizes. <br /> <span>React.js - Javascript - HTML - CSS - MongoDB</span> <br /> <span>Ironhack March 2023.</span> <br /> <span><Link to='https://github.com/joanadgomes/Project-Three-Frontend-devHub' target="_blank" className="uil uil-github-alt github-link"><p>Code</p></Link> </span>
           </p>
         </div>
       </article>
@@ -57,7 +57,7 @@ function Projects() {
             It allows parents to search for babysitters in their area based on
             their availability, experience, and other criteria. Also allows
             individuals to create profiles as babysitters and offer their
-            services to parents. <br /> <span>Javascript - Express.js - HTML - Handlebars - CSS - MongoDB</span> <br /> <span>Ironhack February 2023.</span> <br /> <span> <Link to='https://github.com/joanadgomes/kiddoscare' target="_blank" className="uil uil-github-alt github-link"></Link> </span>
+            services to parents. <br /> <span>Javascript - Express.js - HTML - Handlebars - CSS - MongoDB</span> <br /> <span>Ironhack February 2023.</span> <br /> <span> <Link to='https://github.com/joanadgomes/kiddoscare' target="_blank" className="uil uil-github-alt github-link"><p>Code</p></Link> </span>
           </p>
         </div>
       </article>
@@ -81,7 +81,7 @@ function Projects() {
           <p className="description">
             Classic snake game, in a marine environment with some shrimps to
             eat, with a bonus of some trash that she needs to avoid, developed
-            with Canvas and DOM manipulation. <br /> <span>Javascript - HTML - CSS - Canvas</span> <br /> <span>Ironhack January 2023.</span> <br /> <span> <Link to='https://github.com/joanadgomes/Project-Three-Frontend-devHub' target="_blank" className="uil uil-github-alt github-link"></Link> </span>
+            with Canvas and DOM manipulation. <br /> <span>Javascript - HTML - CSS - Canvas</span> <br /> <span>Ironhack January 2023.</span> <br /> <span> <Link to='https://github.com/joanadgomes/Project-Three-Frontend-devHub' target="_blank" className="uil uil-github-alt github-link"> <p>Code</p> </Link> </span>
           </p>
         </div>
       </article>
