@@ -130,5 +130,10 @@ textarea {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
+    .contact-icon h4,
+h5 {
+  font-size: 0.7rem;
+  font-weight: 100;
+}
 }
