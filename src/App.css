@@ -4,12 +4,9 @@
 
 
 :root {
-    --color-primary: rgb(85, 84, 84);
-    --color-secondary: rgb(159, 226, 191);
-
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --color-primary: rgb(216,191,216);
+    --color-beige: rgb(245,245,220);
+    --color-lavender: rgb(233, 204, 165);
 }
 
 * {

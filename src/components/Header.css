@@ -6,12 +6,7 @@
     right: 0;
     z-index: 1;
     padding: 1.2rem 0;
-    background-color: rgb(234, 231, 231);
-}
-
-.nav-box {
-    position: -webkit-sticky;
-	position: sticky;
+    background-color: var(--color-lavender);
 }
 
 .each-link-icon {
@@ -27,13 +22,12 @@
 }
 
 .link {
-    color: rgb(85, 84, 84);
     padding: 0 10px;
 }
 
 .link:hover {
     font-weight: 600;
-    color: rgb(143, 188, 139);
+    color: whit;
 }
 
 .link-icon {
@@ -47,7 +41,6 @@
 
 .icon {
     margin: .5rem 0;
-    color: rgb(85, 84, 84);
 }
 
 .icon,
@@ -58,12 +51,12 @@
 
 .icon,
 .link {
-    color: black;
+    color: white;
 }
 
 .active {
-    color: rgb(143, 188, 139);
     font-weight: 600;
+    text-decoration: wavy overline white;
 }
 
 @media screen and (max-width: 800px) {
@@ -73,7 +66,7 @@
         width: 100%;
         top: initial;
         bottom: 0;
-        background-color: rgb(234, 231, 231);
+        background-color: var(--color-lavender);
         padding: 1rem 0;
     }
 
@@ -85,7 +78,7 @@
         padding: 1.5rem 0;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
-        background-color: white;
+        background-color: var(--color-lavender);
         display: flex;
         justify-content: center;
     }
@@ -107,7 +100,7 @@
         font-size: 1.5rem;
         cursor: pointer;
         text-decoration: none;
-        color: rgb(85, 84, 84);
+        color: white;
     }
 
     .nav-close:hover {
@@ -118,7 +111,7 @@
     .nav-toggle {
         font-size: 1.1rem;
         cursor: pointer;
-        color: rgb(85, 84, 84);
+        color: white;
         text-align: center;
     }
 
