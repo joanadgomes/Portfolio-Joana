@@ -4,7 +4,7 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.56);
     text-align: center;
-    padding: 1.2rem 0;
+    padding: 1rem 0;
     color:  rgb(85, 84, 84);
   }
   
@@ -16,8 +16,8 @@
   
   @media screen and (max-width: 800px) {
     .footer {
-      padding: 0.2rem 0;
-      margin-bottom: 80px;
+      padding: 0.1rem 0;
+      margin-bottom: 70px;
     }
   
     .footer h3 {
