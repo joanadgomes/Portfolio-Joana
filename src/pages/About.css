@@ -29,9 +29,8 @@
 }
 
 .download-cv:hover {
-  color: white;
-  box-shadow: inset 700px 0 0 0 var(--color-primary);
-  border-color: var(--color-primary);
+  color: var(--color-green);
+  box-shadow: inset 700px 0 0 0 white;
 }
 
 /* Text */
@@ -82,10 +81,12 @@
 
   .list-skills {
     grid-template-columns: repeat(4, 4fr);
+    row-gap: 15px;
   }
 
   .list-skills img {
     width: 60px;
+    margin: 10px 20px;
   }
 
   .title {
@@ -97,9 +98,10 @@
 @media screen and (max-width: 380px) {
   .list-skills {
     grid-template-columns: repeat(3, 3fr);
+    row-gap: 5px;
   }
 
   .list-skills img {
-    width: 60px;
+    width: 40px;
   }
 }

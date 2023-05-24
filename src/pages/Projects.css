@@ -50,7 +50,7 @@
   
   .text-image {
     background-color: var(--color-green);
-    border: 1.5px solid var(--color-green);
+    border: none;
     border-radius: 6px;
     padding: 10px;
     color: white;
@@ -107,7 +107,7 @@
     }
   
     .description {
-      font-size: 13px;
+      font-size: 11px;
       padding: 10px 20px;
     }
   
