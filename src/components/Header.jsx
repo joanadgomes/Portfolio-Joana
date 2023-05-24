@@ -67,7 +67,7 @@ function navHighlighter() {
           <i className="uil uil-times nav-close" onClick={() => showMenu(!Toggle)}></i>
         </div>
 
-        <div className="nav-toggle" onClick={() => showMenu(!Toggle)}>
+        <div className={Toggle ? 'none' : 'nav-toggle'} onClick={() => showMenu(!Toggle)}>
           <i className="uil uil-apps"></i>
         </div>
       </nav>

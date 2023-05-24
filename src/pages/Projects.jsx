@@ -67,7 +67,8 @@ function Projects() {
         <div className="box">
           <Link
             className="linkto"
-            to="https://github.com/joanadgomes/The-Hungry-Snake"
+            to="https://peterloyal.github.io/Project_1/
+            "
             target="_blank"
           >
             <img className="project-image" src={snake} alt="" />

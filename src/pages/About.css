@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 100px 0;
-  background-color: var(--color-beige);
+  background-color: var(--color-green);
 }
 
 .title {
@@ -18,19 +18,20 @@
 .download-cv {
   text-decoration: none;
   font-size: 20px;
-  border: 1.5px solid var(--color-primary);
+  border: 1.5px solid white;
   border-radius: 6px;
   padding: 10px;
   margin: 30px 0;
-  color: var(--color-primary);
+  color: white;
   text-decoration: none;
-  box-shadow: inset 0 0 0 0 var(--color-primary);
+  box-shadow: inset 0 0 0 0 white;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .download-cv:hover {
   color: white;
   box-shadow: inset 700px 0 0 0 var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 /* Text */
@@ -53,7 +54,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-lavender);
+  background-color: var(--color-grey);
   padding: 100px 0;
 }
 

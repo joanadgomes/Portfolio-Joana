@@ -49,8 +49,8 @@
   }
   
   .text-image {
-    background-color: var(--color-primary);
-    border: 1.5px solid var(--color-primary);
+    background-color: var(--color-green);
+    border: 1.5px solid var(--color-green);
     border-radius: 6px;
     padding: 10px;
     color: white;
