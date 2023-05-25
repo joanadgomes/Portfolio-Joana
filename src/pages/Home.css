@@ -30,7 +30,7 @@
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
-  margin-right: 4rem;
+  margin: 0 3rem;
 }
 
 .social-icon {
@@ -70,6 +70,9 @@
   }
 }
 
+.info-box {
+  margin: 0 3rem;
+}
 .info-box h1 {
   font-size: 35px;
   background: linear-gradient(rgba(143, 188, 139, 0.015) 40%, var(--color-green));
@@ -115,18 +118,22 @@
   left: 85%;
   top: 30rem;
   transform: rotate(90deg);
-  font-size: 0.6rem;
-  color: rgb(85, 84, 84);
+  font-size: 1rem;
+  color: var(--color-primary);
 }
 
 .scroll_down:hover {
-  color: black;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 800px) {
   .home-content {
     margin: 40px 10px 80px;
     flex-direction: column;
+  }
+
+  .scroll_down {
+    font-size: 0.5rem;
   }
 
   .profile-image {
@@ -136,7 +143,7 @@
   }
 
   .info-box {
-    margin-left: 0;
+    margin: 0;
   }
 
   .hello {
@@ -161,7 +168,7 @@
   }
 
   .home-social {
-    margin-right: 1rem;
+    margin: 0 1rem 0 0;
   }
 
   .social-icon {

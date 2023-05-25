@@ -6,7 +6,6 @@
   right: 0;
   z-index: 1;
   padding: 1.2rem 0;
-  background-color: rgba(211, 211, 211, 0.56);
 }
 
 .each-link-icon {
@@ -27,7 +26,6 @@
 
 .link:hover {
   font-weight: 600;
-  color: white;
 }
 
 .link-icon {
@@ -44,20 +42,20 @@
 }
 
 .icon,
-.nav-toggle,
+.toggle,
 .nav-close {
   display: none;
 }
 
 .icon,
 .link {
-  color: white;
+  color: black;
 }
 
 .active {
   color: var(--color-primary);
   font-weight: 600;
-  text-decoration: wavy overline var(--color-primary); 
+  text-decoration: wavy overline var(--color-primary);
 }
 
 @media screen and (max-width: 800px) {
@@ -69,6 +67,11 @@
     bottom: 0;
     background-color: transparent;
     padding: 0.5rem 0;
+  }
+
+  .icon,
+  .link {
+    color: white;
   }
 
   .links {
@@ -89,7 +92,7 @@
   }
 
   .icon,
-  .nav-toggle,
+  .toggle,
   .nav-close {
     display: block;
   }
@@ -109,10 +112,13 @@
   }
 
   .nav-toggle {
-    font-size: 1.1rem;
+    font-size: 1rem;
     cursor: pointer;
     color: white;
     text-align: center;
+  }
+
+  .toggle {
     background-color: rgba(0, 0, 0, 0.759);
   }
 
@@ -127,7 +133,6 @@
   .none {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 550px) {
