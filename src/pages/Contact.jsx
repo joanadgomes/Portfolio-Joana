@@ -9,10 +9,8 @@ function Contact() {
   // emailJS
   const form = useRef();
 
-
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_66fhsql', 'template_kz8hhaa', form.current, 'SWjioG-FEfJBA23bC')
       .then((result) => {
           console.log(result.text);
